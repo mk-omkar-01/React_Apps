@@ -1,0 +1,30 @@
+/* Header styling */
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .MuiAppBar-root {
+    background-color: #333; /* Dark background for the AppBar */
+  }
+  
+  .MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Add custom styles to your search bar */
+  .MuiInputBase-root {
+    color: #fff;
+  }
+  
+  .MuiIconButton-root {
+    color: #fff;
+  }
+  
+  /* Hover effect for search input */
+  .MuiInputBase-input:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  

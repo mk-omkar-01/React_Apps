@@ -1,0 +1,152 @@
+/* Base styles */
+.home-container {
+  padding: 40px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.home-header {
+  margin-bottom: 40px;
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.home-intro {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home-gallery {
+  margin-bottom: 40px;
+}
+
+.home-gallery h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: 300px;
+  height: 200px; /* Fixed height */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+.gallery-item p {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Testimonials */
+.home-testimonials {
+  margin-bottom: 40px;
+}
+
+.home-testimonials h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.testimonial span {
+  display: block;
+  font-style: italic;
+  color: #777;
+}
+
+.home-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-section {
+  width: 90%;
+  max-width: 650px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.home-section h2 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.home-section p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .home-sections {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .home-section {
+    width: 30%;
+    margin: 20px;
+  }
+
+  .home-header h1 {
+    font-size: 3.5rem;
+  }
+
+  .home-intro {
+    font-size: 1.3rem;
+  }
+}

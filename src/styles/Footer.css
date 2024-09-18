@@ -1,0 +1,36 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h6 {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #f5a623;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
